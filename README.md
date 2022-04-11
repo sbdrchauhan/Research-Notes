@@ -6,4 +6,6 @@
 
 **Q. Why while doing the plot of `eta_hist[i]` we should restrict the plotting range very much?**
 
->Because in those plots we really want to only plot the peak area and little bit of background around it. But if we increase the plot ranges to too much then the fit will try to match the background data to that above ranges values also which we don't want to incorporate. This will cause the fit parameters to go in a certain direction to that area which we don't care. Also, in that unwanted range there might be the most statistics and so your fit will try to fit that very high statistics region preferentially (not the pi0 peak). Hence, it is always a good idea to limit the ranges of the fit from let's say (0.07-0.30 in our case).
+>Because in those plots we really want to only plot the peak area and little bit of background around it. But if we increase the plot ranges to too much then the fit will try to match the background data to that above ranges values also which we don't want to incorporate. This will cause the fit parameters to go in a certain direction to that area which we don't care. Also, in that unwanted range there might be the most statistics and so your fit will try to fit that very high statistics region preferentially (not the pi0 peak). Hence, it is always a good idea to limit the ranges of the fit from let's say (0.07-0.30 in our case). See the image below:
+
+![Pi0 Image](https://github.com/sbdrchauhan/Research-Notes/blob/main/images/pi0%20fit%20range.png)
